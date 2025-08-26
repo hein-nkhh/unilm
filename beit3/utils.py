@@ -9,6 +9,7 @@ import datetime
 import io
 import os
 import math
+inf = math.inf
 import time
 import json
 import argparse
@@ -21,7 +22,6 @@ import torch
 import torch.distributed as dist
 import torch.nn as nn
 import torch.nn.functional as F
-from torch._six import inf
 from torchmetrics import Metric
 from tensorboardX import SummaryWriter
 
